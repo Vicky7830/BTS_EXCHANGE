@@ -1,0 +1,72 @@
+.Landing2Cont{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: var(--green-effect2);
+  background-blend-mode: overlay;
+    
+
+}
+
+.divLand2Cont{
+  background-color: var(--green-effect2);
+  padding-top: 4rem;
+
+}
+
+.tablecont{
+    width: 80%;
+    height: 90vh;
+    /* overflow-x: scroll; */
+    
+}
+
+.tableImg{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: .4rem;
+}
+
+
+.ourSwap{
+    color: var(--text-white);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+
+@media screen and (max-width:972px) {
+    
+
+    .Landing2Cont{
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      background-color: var(--green-effect2);
+      background-blend-mode: overlay;
+        
+    
+    }
+    
+    .tablecont{
+        width: 96%;
+        height: 90vh;
+        
+    }
+    
+    .tableImg{
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-right: .4rem;
+    }
+
+
+
+}

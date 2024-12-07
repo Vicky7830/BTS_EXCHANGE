@@ -1,0 +1,371 @@
+.LandingCont {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../assets/bnr1.jpg") fixed no-repeat;
+    /* background-color: var(--blue); */
+    /* background: radial-gradient(79.87% 58.68% at 50% 0%, var(--bg-blue1) 0%, var(--bg-blue2) 49%,var(--bg-blue3) 100%);    background: var(--bg, radial-gradient( 147.99% 163.2% at 70.13% -3.28%, #2667fe 0%, #0041da 9.72%, #030181 21.71%, #001343 36.96%, #000 69.59% ) ); */
+    background-color: var(--yellowl);
+
+    background-blend-mode: overlay;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.IntroContainer {
+    width: 80%;
+    min-height: 40vh;
+    display: flex;
+    margin: auto;
+
+}
+
+.Intro_SubContainer1 {
+    width: 50%;
+    min-height: 60vh;
+    padding: 0rem 4rem 3.8rem 4rem;
+}
+
+.Intro_SubContainer1 h2 {
+    font-weight: 700;
+    color: var(--text-white);
+    /* background: darkblue; */
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+.Intro_SubContainer1 h5 {
+    font-size: 90%;
+    font-weight: 700;
+    color: var(--text-white);
+    display: flex;
+    width: 100%;
+}
+
+.Intro_SubContainer1 h2 span hr {
+    width: .6rem;
+    border-radius: 50%;
+    height: .6rem;
+    padding: 0;
+    margin: 0;
+    filter: brightness(100%);
+    border: .2rem solid var(--wallet-btn);
+    position: relative;
+    /* color: darkgoldenrod; */
+    font-stretch: ultra-expanded;
+}
+
+
+.Intro_SubContainer2 {
+    width: 60%;
+    min-height: 55vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Intro_SubContainer2 img {
+    min-width: 30rem;
+    max-width: 65%;
+    min-height: 65%;
+    max-height: 100%;
+    object-position: center;
+    image-rendering: crisp-edges;
+    object-fit: contain;
+}
+
+
+
+.Intro_SubContainer1_btn_container {
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    margin-top: 1.4rem;
+    column-gap: 1rem;
+
+}
+
+.Intro_SubContainer1_btn {
+    width: 100%;
+    height: 2.8rem;
+    font-size: .9rem;
+    border-radius: .6rem;
+    border: none;
+    font-weight: 600;
+    background: var(--wallet-btn);
+    border: .12rem solid var(--text-white);
+
+}
+
+
+.Intro_SubContainer1_btn:nth-child(2) {
+    width: 100%;
+
+    background: var(--yellow);
+    color: var(--black-text);
+}
+
+.feautute1 {
+    width: 16rem;
+    min-height: 2.6rem;
+}
+
+
+
+@media screen and (max-width:1400px) {
+    .IntroContainer {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:1200px) and (min-width:792px) {
+    .Intro_SubContainer2 {
+        width: 100%;
+        min-height: 30vh;
+        max-height: 50vh;
+        margin-top: 5vh;
+
+    }
+
+    .Intro_SubContainer2 img {
+
+        width: 90%;
+        height: 90% !important;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:792px) {
+    .IntroContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Intro_SubContainer1 {
+        width: 100%;
+        min-height: 10vh;
+        padding: 0 1rem;
+    }
+
+    .Intro_SubContainer2 {
+        width: 100%;
+        min-height: 15vh;
+        max-height: 45vh;
+        padding: 10vh 0 5vh 0;
+    }
+
+
+
+
+    .Intro_SubContainer1 {
+        order: 2;
+
+        padding-top: 0 !important;
+    }
+
+    .Intro_SubContainer2 {
+        order: 1;
+    }
+
+
+    .Intro_SubContainer1 h2 {
+        display: none !important;
+    }
+
+    .Intro_SubContainer1 h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .Intro_SubContainer1 h2 span hr {
+        display: none;
+    }
+
+    .Intro_SubContainer2 img {
+
+        width: 80%;
+        height: 80% !important;
+    }
+
+}
+
+.Landing3Fetaures {
+    width: 100%;
+    min-height: 7rem;
+    padding-bottom: 5rem;
+    background-color: var(--green-effect2);
+    padding-top: 10rem;
+}
+
+.Landing3FetauresCont {
+    width: 80%;
+    margin: auto;
+    min-height: 6rem;
+    background-color: var(--orag);
+    box-shadow: 0rem 1px .5rem .1rem var(--orag-shine);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: .8rem
+}
+
+.featurebox {
+    border-right: 2px solid var(--white);
+    padding: 1rem;
+}
+
+.imagecont {
+    width: 4rem;
+    margin: auto;
+    background: var(--red);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .6rem;
+}
+
+
+.imagecont img {
+    width: 3.8rem;
+}
+
+
+.featurebox h6 {
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+    /* background: firebrick; */
+    color: var(--text-white);
+    letter-spacing: .6px;
+    font-size: 75%;
+
+}
+
+
+.featurebox h4 {
+    width: 100%;
+    /* background: firebrick; */
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-white);
+
+}
+
+.ourSwap {
+    color: var(--text-white);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width:972px) {
+
+    .Landing3Fetaures {
+        width: 100%;
+        min-height: 7rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+
+    .Landing3FetauresCont {
+        width: 80%;
+        margin: auto;
+        min-height: 6rem;
+        background-color: var(--orag);
+        box-shadow: none;
+    }
+
+    .Landing3FetauresCont {
+        width: 95%;
+        margin: auto;
+        min-height: 6rem;
+        grid-template-columns: repeat(auto-fit, minmax(45%, 48%));
+        border-radius: .8rem;
+        padding: 1rem;
+    }
+
+    .featurebox {
+        border-right: none;
+        padding: 0rem;
+        border-bottom: 2px dotted var(--white);
+
+    }
+
+
+    .featurebox:nth-child(2n+1) {
+        border-right: 2px dotted var(--white);
+        padding: 1rem;
+
+    }
+
+    .featurebox:nth-child(2n) {
+        padding: 1rem;
+
+
+    }
+
+    .featurebox:nth-child(5) {
+        border-right: 2px dotted var(--white) !important;
+        padding: 1rem;
+    }
+
+
+
+
+
+    .imagecont {
+        width: 4rem;
+        margin: auto;
+        background: var(--red);
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: .6rem;
+    }
+
+
+    .imagecont img {
+        width: 3.8rem;
+    }
+
+
+    .featurebox h6 {
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%;
+        /* background: firebrick; */
+        color: var(--text-white);
+        letter-spacing: .6px;
+        font-size: 75%;
+
+    }
+
+
+    .featurebox h4 {
+        width: 100%;
+        /* background: firebrick; */
+        text-align: center;
+        font-weight: 600;
+        color: var(--text-white);
+
+    }
+
+
+
+
+}

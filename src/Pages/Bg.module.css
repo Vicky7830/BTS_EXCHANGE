@@ -1,0 +1,11 @@
+.ExchangeCont {
+    min-height: 100vh;
+    padding: 5rem 0;
+
+    background: url("../assets/bnr1.jpg") fixed no-repeat;
+    background-color: var(--yellowl);
+
+    background-blend-mode: overlay;
+    overflow: hidden;
+    position: relative;
+}
